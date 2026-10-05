@@ -1,12 +1,10 @@
-// Aqui lo de la página de alta_usuarios, solo lo indispensable y acorde al pdf
-const API = 'http://localhost:8080/api/v1/usuarios';
+const API = 'https://examen01-wcbdf.onrender.com/api/v1/usuarios';
 const form = document.getElementById('formRegistro');
 const mensaje = document.getElementById('mensaje');
 
-// El backend exige una fecha pasada: el máximo seleccionable es ayer
 const ayer = new Date();
 ayer.setDate(ayer.getDate() - 1);
-form.fechaNacimiento.max = ayer.toLocaleDateString('en-CA'); // formato yyyy-mm-dd
+form.fechaNacimiento.max = ayer.toLocaleDateString('en-CA'); 
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();

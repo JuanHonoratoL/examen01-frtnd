@@ -1,5 +1,4 @@
-// Aqui lo de la página de busqueda_usuarios, solo lo indispensable y acorde al pdf
-const API = 'http://localhost:8080/api/v1/usuarios/buscar';
+const API = 'https://examen01-wcbdf.onrender.com/api/v1/usuarios/buscar';
 const form = document.getElementById('formBusqueda');
 const texto = document.getElementById('texto');
 const mensaje = document.getElementById('mensaje');

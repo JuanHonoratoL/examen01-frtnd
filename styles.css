@@ -1,16 +1,91 @@
-/* Diseño sencillo, pocas líneas, lo indispensable nada más */
-body { font-family: sans-serif; background: #f0f2f5; margin: 0; padding: 40px 16px; }
-.caja { max-width: 420px; margin: 0 auto; background: #fff; padding: 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,.15); }
-h1 { text-align: center; color: #1877f2; font-size: 22px; }
-label { display: block; margin-top: 10px; font-size: 14px; }
-input { width: 100%; padding: 8px; margin-top: 4px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; }
-button { width: 100%; margin-top: 16px; padding: 10px; background: #1877f2; color: #fff; border: 0; border-radius: 4px; cursor: pointer; }
-.buscador { display: flex; gap: 8px; }
-.buscador button { width: auto; margin-top: 4px; }
-.mensaje { margin-top: 12px; text-align: center; }
-.ok { color: green; }
-.error { color: #c00; }
-#resultados { list-style: none; padding: 0; }
-#resultados li { padding: 10px 0; border-bottom: 1px solid #eee; }
-#resultados small { color: #666; }
-a { display: block; text-align: center; margin-top: 16px; color: #1877f2; }
+body {
+    font-family: sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 40px 16px;
+}
+
+.caja {
+    max-width: 420px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+}
+
+h1 {
+    text-align: center;
+    color: #1877f2;
+    font-size: 22px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    margin-top: 16px;
+    padding: 10px;
+    background: #1877f2;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buscador {
+    display: flex;
+    gap: 8px;
+}
+
+.buscador button {
+    width: auto;
+    margin-top: 4px;
+}
+
+.mensaje {
+    margin-top: 12px;
+    text-align: center;
+}
+
+.ok {
+    color: green;
+}
+
+.error {
+    color: #c00;
+}
+
+#resultados {
+    list-style: none;
+    padding: 0;
+}
+
+#resultados li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+#resultados small {
+    color: #666;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    color: #1877f2;
+}
