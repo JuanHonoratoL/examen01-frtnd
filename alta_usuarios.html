@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de usuario</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="caja">
+    <h1>Registro de usuario</h1>
+    <form id="formRegistro">
+      <label>Nombre <input name="nombre" maxlength="50" required></label>
+      <label>Apellido paterno <input name="apellidoPaterno" maxlength="50" required></label>
+      <label>Apellido materno <input name="apellidoMaterno" maxlength="50" required></label>
+      <label>Correo electrónico <input type="email" name="correo" maxlength="100" required></label>
+      <label>Usuario <input name="usuario" minlength="5" maxlength="50" required></label>
+      <label>Contraseña <input type="password" name="password" minlength="8" maxlength="100" required></label>
+      <label>Fecha de nacimiento <input type="date" name="fechaNacimiento" required></label>
+      <button type="submit">Registrar</button>
+    </form>
+    <p id="mensaje" class="mensaje"></p>
+    <a href="busquda_usuarios.html">Ir a búsqueda de usuarios</a>
+  </div>
+  <script src="script_alta.js"></script>
+</body>
+</html>
